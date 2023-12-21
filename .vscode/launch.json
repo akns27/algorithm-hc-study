@@ -6,8 +6,8 @@
       "type": "lldb",
       "request": "launch",
       "args": [],
-      "cwd": "/Users/baggang-won/Desktop/코딩용/structure_class/탐색",
-      "program": "/Users/baggang-won/Desktop/코딩용/structure_class/탐색/build/Debug/outDebug"
+      "cwd": ".",
+      "program": "build/Debug/outDebug"
     }
   ]
 }
