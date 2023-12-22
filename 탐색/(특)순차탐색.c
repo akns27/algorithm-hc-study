@@ -1,3 +1,6 @@
+//처음~끝까지 key값을 탐색하는 코드
+
+
 #include <stdio.h>
 int list[] = {9, 5, 8, 3, 7};
 int key, result;

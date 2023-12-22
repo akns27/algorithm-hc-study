@@ -1,3 +1,5 @@
+//절반 쪼개고 쪼개고 쪼개는 방법=
+
 #include <stdio.h>
 int list[] = {2, 6, 11, 13, 18, 20, 22, 27, 29, 30, 34, 38, 41, 42, 45, 47};
 int key, result;
@@ -8,7 +10,7 @@ int binary_search(int low, int high){
 	while(low<=high){
 		middle = (low+high)/2;//중앙 값을 정해줌
 		
-		if(key == list[middle]) return middle + 1;//키와 중앙값이 같다면 중앙값+1 해줌(배열 인덱스 0부터 시작해서)
+		if(key == list[middle]) return middle + 1;//키와 중앙값이 같다면 중앙값+1 해줌(배열 인덱스 0부터 시작해서 우리가 원하는 값이 나오려면 +1)
 		else if(key < list[middle]) high = middle - 1;//같지않고 중앙값보다 작다면 high를 재설정
 		else low = middle + 1;//리스트보다 크다면 low를 재설정
 	}
